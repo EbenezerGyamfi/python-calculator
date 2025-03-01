@@ -14,6 +14,7 @@ def subtract(first_term, second_term):
 def multiply(first_term, second_term):
     return first_term * second_term
 
+
 def divide(dividend, divisor):
     if divisor == 0:
         raise ValueError("Division by zero is not allowed")
